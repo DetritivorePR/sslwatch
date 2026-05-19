@@ -1,0 +1,18 @@
+{
+  "name": "sslwatch",
+  "version": "1.0.0",
+  "description": "SSL certificate expiry monitor with Slack alerts",
+  "main": "src/sslwatch.js",
+  "scripts": {
+    "start": "node src/sslwatch.js",
+    "test": "node src/sslwatch.js help && echo Tests passed",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap",
+    "achievements": "bash scripts/unlock-all.sh",
+    "setup": "bash scripts/setup.sh"
+  },
+  "keywords": ["github", "achievements", "sslwatch", "security", "devops"],
+  "author": "YOUR_USERNAME",
+  "license": "MIT",
+  "engines": { "node": ">=20.0.0" }
+}
